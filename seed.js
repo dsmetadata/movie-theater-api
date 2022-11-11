@@ -34,5 +34,9 @@ const seed = async () => {
     console.log("Shows and User database info populated!")
 }
 
+
+//seed()
+//async function setDB() {await db.sync({force: true})}
+
 //export my seed function
 module.exports = seed;

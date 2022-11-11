@@ -1,18 +1,30 @@
 {
   "name": "movie_rating_project_solution",
   "version": "1.0.0",
-  "description": "",
-  "main": "db.js",
+  "description": "Movie Theater Project for Express Week Day 5",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "seed": "seed.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
-    "nodemon": "^2.0.15",
-    "sequelize": "^6.21.4",
-    "sqlite3": "^5.0.11"
+    "express": "^4.18.2",
+    "sequelize": "^6.25.5",
+    "sqlite3": "^5.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmetadata/movie-theater-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dsmetadata/movie-theater-api/issues"
+  },
+  "homepage": "https://github.com/dsmetadata/movie-theater-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

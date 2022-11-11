@@ -11,3 +11,4 @@ const Show = db.define("shows", {
 
 //exports
 module.exports = { Show }
+
